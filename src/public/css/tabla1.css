@@ -1,0 +1,52 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+#titulo{
+    width: 100%;
+    text-align: center;
+}
+.contenedor-general{
+    width: 100%;
+}
+.rio{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    height: 170px;
+}
+
+.contenedor-nombre{
+    width: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.nombre{
+    width: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgb(167, 164, 164);
+    font-size: 20px;
+}
+.contenedor-descripcion{
+    width: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.descripcion{
+    padding: 5px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
