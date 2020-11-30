@@ -9,7 +9,7 @@
     justify-content: space-between;
     height: 70px;
     width: 100%;
-    background: #4EA1DF;
+    background: black;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
@@ -30,4 +30,13 @@
 }
 .contenedor-img img{
     height: 75%;
+}
+
+.Natalia{
+    width: 100%;
+}
+.Natalia iframe {
+	width: 100%;
+	height: 800px;
+	border: 0;
 }

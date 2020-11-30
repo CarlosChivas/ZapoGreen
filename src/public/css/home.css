@@ -41,6 +41,7 @@
     height: 50px;
     color: black;
     border-radius: 10px;
+    background: indigo;
 }
 .listado-opciones a:hover{
     background: #E3E2E2;

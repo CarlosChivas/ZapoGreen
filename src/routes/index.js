@@ -12,6 +12,10 @@ admin.initializeApp({
 
 const db = admin.database();
 
+router.get('/',(req,res) =>{
+    res.render('home');
+});
+
 router.get('/semaforo-calidad',(req,res) =>{
     db.ref('Niveles').once('value', (snapshot) =>{
         const data = snapshot.val();
@@ -28,8 +32,10 @@ router.get('/comparacion',(req,res) =>{
         res.render('grafica1',{datos:data.Niveles, rio: rioPrueba, layout:'layGrafica'});
     });
 });
-router.get('/',(req,res) =>{
-    res.render('home');
+
+router.get('/dashboard',(req,res) =>{
+    res.render('dashboard',{layout:'layDashboard'})
 });
+
 
 module.exports = router;
