@@ -17,7 +17,7 @@ router.get('/semaforo-calidad',(req,res) =>{
         const data = snapshot.val();
         //const mydata = JSON.parse(data); 
         //console.log(mydata[0]);
-        res.render('tabla1',{datos:data});
+        res.render('tabla1',{datos:data, layout:'layTabla1'});
     })
 });
 
@@ -27,6 +27,9 @@ router.get('/comparacion',(req,res) =>{
         const rioPrueba = (data.Temperatura_C + data.oxigenoD + data.PH)/3;
         res.render('grafica1',{datos:data.Niveles, rio: rioPrueba, layout:'layGrafica'});
     });
+});
+router.get('/',(req,res) =>{
+    res.render('home');
 });
 
 module.exports = router;
