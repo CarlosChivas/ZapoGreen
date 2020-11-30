@@ -2,6 +2,7 @@
     font-family: 'Ubuntu', sans-serif;
 }
 #titulo{
+    margin-top: 15px;
     width: 100%;
     text-align: center;
 }
@@ -14,7 +15,7 @@
     width: 100%;
     justify-content: space-around;
     text-align: center;
-    height: 170px;
+    height: 165px;
 }
 
 .contenedor-nombre{
