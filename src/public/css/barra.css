@@ -4,7 +4,7 @@
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
 }
-#contendor-barra-navegacion{
+#contenedor-barra-navegacion{
     display: inline-flex;
     justify-content: space-between;
     height: 70px;
@@ -12,13 +12,14 @@
     background: #4EA1DF;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 25px;
 }
-#contendor-barra-navegacion a{
+#contenedor-barra-navegacion a{
     margin-left: 10px;
     color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
 }
-#contendor-barra-navegacion img{
+#contenedor-barra-navegacion img{
     margin-right: 25px;
 }
 .contenedor-img{

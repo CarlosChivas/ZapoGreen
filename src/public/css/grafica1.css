@@ -1,10 +1,14 @@
 .contenedor-titulo-grafica1{
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
 }
 
+.contenedor-titulo-grafica1 p{
+    font-family: 'Josefin Sans', sans-serif;
+}
 .contenedor-grafica1{
     display: inline-flex;
     align-items: center;
