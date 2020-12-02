@@ -17,11 +17,10 @@ router.get('/',(req,res) =>{
 });
 
 router.get('/semaforo-calidad',(req,res) =>{
-    db.ref('Niveles').once('value', (snapshot) =>{
+    db.ref().once('value', (snapshot) =>{
         const data = snapshot.val();
-        //const mydata = JSON.parse(data); 
-        //console.log(mydata[0]);
-        res.render('tabla1',{datos:data, layout:'layTabla1'});
+        const rioPrueba = (data.Temperatura_C + data.oxigenoD + data.PH)/3;
+        res.render('tabla1',{datos:data.Niveles, rio:rioPrueba, layout:'layTabla1'});
     })
 });
 

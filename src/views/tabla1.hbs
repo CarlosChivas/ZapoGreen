@@ -2,67 +2,67 @@
     <a href="/">ZapoGreen</a>
     <div class="contenedor-img"><img src="img/mexico.jpeg"></div>
 </div>
-<div id="titulo"><h1> Semaforo de calidad de los rios </h1></div>
+<div id="titulo"><h1> Semáforo de calidad de los ríos </h1></div>
 <div class="contenedor-general">
         <div class="rio">
             <div class="contenedor-nombre"> 
-                <div class="nombre"><h5>Rio de Guadalajara</h5></div>
+                <div class="nombre"><h5>Río de San Juan de los Lagos</h5></div>
             </div>
             <div class="contenedor-descripcion">
                 <div class="descripcion" id ="estadoGuadalajara"><script>
-                    if({{datos.rio1}}<39){
+                    if({{rio}}<20){
                         document.write("<style> #estadoGuadalajara{ background:rgb(119, 248, 119); } </style>");
                         document.write("<p>La calidad del agua es totalmete segura<p>");
                     }
-                    else if({{datos.rio1}}<100){
+                    else if({{rio}}<50){
                         document.write("<style> #estadoGuadalajara{ background:orange; } </style>");
                         document.write("<p>Se encontraron ciertos factores de contaminantes<p>");
                     }
                     else{
                         document.write("<style> #estadoGuadalajara{ background:rgb(252, 70, 70); } </style>");
-                        document.write("<p>El rio está contaminado, no se recomienda hacer uso de sus recursos<p>");
+                        document.write("<p>El río está contaminado, no se recomienda hacer uso de sus recursos<p>");
                     }
                 </script></div>
             </div>
         </div>
         <div class="rio">
             <div class="contenedor-nombre">
-                <div class="nombre"><h5>Rio de Zapotiltic</h5></div>
+                <div class="nombre"><h5>Río de San Isidro</h5></div>
             </div>
             <div class="contenedor-descripcion">
                 <div class="descripcion" id ="estadoZapotiltic"><script>
-                    if({{datos.rio2}}<39){
+                    if({{datos.rio2}}<20){
                         document.write("<style> #estadoZapotiltic{ background:rgb(119, 248, 119); } </style>");
                         document.write("<p>La calidad del agua es totalmete segura<p>");
                     }
-                    else if({{datos.rio2}}<100){
+                    else if({{datos.rio2}}<50){
                         document.write("<style> #estadoZapotiltic{ background:orange; } </style>");
                         document.write("<p>Se encontraron ciertos factores de contaminantes<p>");
                     }
                     else{
                         document.write("<style> #estadoZapotiltic{ background:rgb(252, 70, 70); } </style>");
-                        document.write("<p>El rio está contaminado, no se recomienda hacer uso de sus recursos<p>");
+                        document.write("<p>El río está contaminado, no se recomienda hacer uso de sus recursos<p>");
                     }
                 </script></div>
             </div>
         </div>
         <div class="rio">
             <div class="contenedor-nombre">
-                <div class="nombre"><h5>Rio Jalisco</h5></div>
+                <div class="nombre"><h5>Río Juchipila</h5></div>
             </div>
             <div class="contenedor-descripcion">
                 <div class="descripcion" id ="estadoJalisco"><script>
-                    if({{datos.rio3}}<39){
+                    if({{datos.rio3}}<20){
                         document.write("<style> #estadoJalisco{ background:rgb(119, 248, 119); } </style>");
                         document.write("<p>La calidad del agua es totalmete segura<p>");
                     }
-                    else if({{datos.rio3}}<100){
+                    else if({{datos.rio3}}<50){
                         document.write("<style> #estadoJalisco{ background:orange; } </style>");
                         document.write("<p>Se encontraron ciertos factores de contaminantes<p>");
                     }
                     else{
                         document.write("<style> #estadoJalisco{background: rgb(252, 70, 70);} </style>");
-                        document.write("<p>El rio está contaminado, no se recomienda hacer uso de sus recursos<p>");
+                        document.write("<p>El río está contaminado, no se recomienda hacer uso de sus recursos<p>");
                     }
                 </script></div>
             </div>
