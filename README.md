@@ -1,1 +1,5 @@
-$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\Usuario\Desktop\firebase-node\nodomcu-69762-firebase-adminsdk-8jywn-ed40db2690.json"
+Aplicacion para el monitoreo de la calidad del agua en disitntos rios
+
+Para poder hacer funcionar esta pagina necesitaras de tener previamente preparado tu entorno NodeJS e instaladas las dependencias necesarias mostradas en el package.json
+
+Si deseas observar la pagina en funcionamiento esta es la liga: http://chaiotes.herokuapp.com/

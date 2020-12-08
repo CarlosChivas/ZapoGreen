@@ -3,11 +3,11 @@ const router = Router();
 const admin = require('firebase-admin');
 
 
-var serviceAccount = require("../../nodomcu-69762-firebase-adminsdk-8jywn-ed40db2690.json");
+var serviceAccount = require("Credencial de base de datos");
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: 'https://nodomcu-69762.firebaseio.com',
+    databaseURL: 'Ruta de base de datos',
 });
 
 const db = admin.database();
