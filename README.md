@@ -14,6 +14,7 @@ Also you'll need config the firebase credentials, you can get all information in
 https://firebase.google.com/docs/admin/setup
 
 Route for integrations with NodeJS in Firebase:
+
  1 - Proyect console
  
  2 - Settings
